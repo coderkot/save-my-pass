@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Save My Pass</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="wrap">
+    <input type="text" placeholder="enter pass to convert" id="passInput" />
+    <div id="tools">
+        <button id="ruEncode">Convert to RU</button>
+        <button id="enEncode">Convert to EN</button>
+        <button id="savePass">Save my pass</button>
+        <button id="deletePass">Delete my pass</button>
+    </div>
+
+    <div id="passBlock">
+        <p id="ru_str">ru: ----</p>
+        <p id="en_str">en: ----</p>
+    </div>
+
+    <div id="viewPassBlock">
+        <p id="ru_view">*********</p>
+        <p id="en_view">*********</p>
+        <button id="showPass">Show my pass</button>
+        <button id="hidePass">Hide my pass</button>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

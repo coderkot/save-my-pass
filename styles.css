@@ -1,0 +1,33 @@
+#passInput {
+    width: 30%;
+    height: 30px;
+    border: 1px solid #d3d3d3;
+    padding: 2px;
+}
+
+#passInput:focus-visible {
+    outline: #b7b7b7 auto 1px;
+}
+
+#tools {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+button {
+    height: 30px;
+    border: 1px solid #d3d3d3;
+}
+
+button:hover {
+    background-color: #d3d3d3;
+}
+
+button:active {
+    box-shadow: inset 0px 0px 8px 0px #787878;
+}
+
+#ru_view, #en_view, #showPass, #hidePass, #passBlock, #tools, #passInput {
+    margin: 10px
+}
