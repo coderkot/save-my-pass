@@ -25,9 +25,28 @@ button:hover {
 }
 
 button:active {
-    box-shadow: inset 0px 0px 8px 0px #787878;
+    box-shadow: inset 0 0 8px 0 #787878;
 }
 
 #ru_view, #en_view, #showPass, #hidePass, #passBlock, #tools, #passInput {
     margin: 10px
+}
+
+@media screen and (max-width: 1700px) {
+    #passInput {
+        width: 100%;
+        height: 80px;
+    }
+
+    #tools {
+        width: 40%;
+    }
+
+    #tools button {
+        width: 20%;
+    }
+
+    button {
+        height: 80px;
+    }
 }
