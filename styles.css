@@ -49,4 +49,8 @@ button:active {
     button {
         height: 80px;
     }
+
+    #viewPassBlock button {
+        width: 15%;
+    }
 }
